@@ -1,4 +1,4 @@
-## Welcome to the Communitrics API Documentation
+## Welcome to the [Communitrics](https://github.com/Communitrics) API Documentation
 ## Here you can see the different endpoints of the API, the expected responses, and the parameters available for each.
 ### The URL of the API is [api.communitrics.com](https://api.communitrics.com/)<br><br>
 
