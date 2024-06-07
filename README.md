@@ -18,6 +18,15 @@
    - **Replace `CHANNEL_NAME` with the name of your desired channel, for example `mrbeast`**
 <br><br><br>
 
+# YouTube banner / profile picture search
+- `https://api.communitrics.com/youtube/banner?channel=CHANNEL_NAME` Going to this URL gives you banner of your chosen channel, directly using the YouTube API
+   - **Replace `CHANNEL_NAME` with the name of your desired channel, for example `mrbeast`.**
+   - Protip: You can also replace `?channel=` with `?channelId=` and specify the channel ID, if you wish.<br><br>
+- `https://api.communitrics.com/youtube/profile?channel=CHANNEL_NAME` Going to this URL gives you profile picture of your chosen channel, directly using the YouTube API
+   - **Replace `CHANNEL_NAME` with the name of your desired channel, for example `mrbeast`.**
+   - Protip: You can also replace `?channel=` with `?channelId=` and specify the channel ID, if you wish. 
+<br><br><br>
+
 # MrBeast latest statistics
 - `https://api.communitrics.com/mrbeaststats` Going to this URL gives you the latest statistics of MrBeast updated every few seconds, using his studio subscriber count provided by [Viewstats](https://viewstats.com/). This also has data like the current averages, and the amount of subscribers he's gained in the past 24 hours / since the count came out, and more! You can download this as a CSV by going to [this site](https://charlie-ashford.github.io/mrbeastGraph/) and clicking the "Export Data to CSV" button.
 <br><br><br>
