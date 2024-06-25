@@ -8,7 +8,7 @@
    - **`/CHANNEL_ID` Specify a channel ID (such as UCX6OQ3DkcsbYNE6H8uQQuVA) to only retrieve records for that channel.**
    - `?averages=true` Specifying `?averages=true` in the URL includes averages in the response. These are daily, minutely and secondly averages correct to 10 decimal places.
    - `?all=true` Specifying `?all=true` in the URL includes all subscriber count records. This is not reccomended due to this including hits and re-hits for milestones (not just the first time the channel hit it), making averages sometimes be very high.
-   -  `?david=true` Specifying `?david=true` in the URL provides the daily Daivd Summerall Viewstats updates for MrBeast that he did between January and April of 2024 in the response. Without specifying this, you only get the API milestones of MrBeast.
+   -  `?david=true` Specifying `?david=true` in the URL provides the daily David Summerall Viewstats updates for MrBeast that he did between late-January and mid-May of 2024 in the response. Without specifying this, you only get the API milestones of MrBeast.
    - `?format=csv` Specifying `?format=csv` in the URL gives you a popup to download the response with your chosen paramaters as a CSV file.
  - You can choose multiple parameters by separating them with `&`. For example, `?averages=true&all=true` would include both averages and all subscriber count records in the response.
 <br><br><br>
